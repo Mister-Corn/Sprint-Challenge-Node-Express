@@ -18,7 +18,7 @@ server.use(express.json());
 //Projects
 server.use('/api/projects', projectRoutes);
 //Actions
-// server.use('/api/actions', actionRoutes);
+server.use('/api/actions', actionRoutes);
 
 /* --- Server Start! --- */
 const port = 5000;
